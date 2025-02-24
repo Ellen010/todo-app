@@ -1,13 +1,13 @@
-<h1>Todo App</h1>
+<h3>Todo App</h3>
 
 <p>Includes:</p>
-<h3>-Local storage </h3>
-<h3>-Form inputs</h3>
-<h3>-Form inputs</h3>
-<h3>-Managing local storage</h3>
-<h3>-CRUD (Create, Read, Update, Delete) operations on tasks</h3>
-<h3>-Event listeners</h3>
-<h3>-Toggle UI elements</h3>
+<p>-Local storage</p>
+<p>-Form inputs</p>
+<p>-Form inputs</p>
+<p>-Managing local storage</p>
+<p>-CRUD (Create, Read, Update, Delete) operations on tasks</p>
+<p>-Event listeners</p>
+<p>-Toggle UI elements</p>
 
 ![Screenshot 2025-02-24 162033](https://github.com/user-attachments/assets/7c0e48c1-b60d-4a0c-890d-1798a9dd94fc)
 
