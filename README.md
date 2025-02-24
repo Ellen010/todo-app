@@ -6,7 +6,7 @@
 <p>-Managing local storage</p>
 <p>-CRUD (Create, Read, Update, Delete) operations on tasks</p>
 <p>-Event listeners</p>
-<p>-Toggle UI elements</p>
+<p>-Toggling UI elements</p>
 
 ![Screenshot 2025-02-24 162033](https://github.com/user-attachments/assets/7c0e48c1-b60d-4a0c-890d-1798a9dd94fc)
 
