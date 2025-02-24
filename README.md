@@ -3,7 +3,6 @@
 <p>Includes:</p>
 <p>-Local storage</p>
 <p>-Form inputs</p>
-<p>-Form inputs</p>
 <p>-Managing local storage</p>
 <p>-CRUD (Create, Read, Update, Delete) operations on tasks</p>
 <p>-Event listeners</p>
