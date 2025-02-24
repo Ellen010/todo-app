@@ -1,0 +1,193 @@
+:root {
+  --white: #fff;
+  --light-grey: #f5f6f7;
+  --cherry:#ed6a5a;
+  --tree: #14746f;
+  --ocean: #8e9aaf;
+  --grass:#57cc99;
+  --pastel:#ff006e;
+  --rose:#f28482;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--ocean);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: var(--light-grey);
+  margin: 20px 0 40px 0;
+}
+
+.todo-app {
+  background-image: linear-gradient(#fefae0, #f2e9e4,#e0afa0);
+  width: 300px;
+  height: 350px;
+  border: 5px solid var(--grass);
+  border-radius: 8px;
+  padding: 15px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn {
+  cursor: pointer;
+  width: 100px;
+  margin: 30px 10px 10px 10px;
+  color: var(--white);
+  background-color: var(--rose);
+  border-color: var(--grass);
+  border-width: 5px;
+  border-radius:10px;
+  font-weight:800;
+  padding:5px;
+}
+
+.btn:hover {
+  background-image: linear-gradient(#fbf8cc, #c8d5b9);
+}
+
+.large-btn {
+  width: 80%;
+  font-size: 1.2rem;
+  align-self: center;
+  justify-self: center;
+}
+
+.close-task-form-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.close-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.task-form {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: linear-gradient(#fefae0, #f2e9e4,#e0afa0);
+  border-radius: 5px;
+  padding: 15px;
+  width: 300px;
+  height: 350px;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
+  color:var(--cherry);
+}
+
+.task-form-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.task-form-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.task-form-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.task-form-label,
+#title-input,
+#date-input,
+#description-input {
+  display: block;
+}
+
+.task-form-label {
+  margin-bottom: 5px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+#title-input,
+#date-input,
+#description-input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 2px;
+  border-radius:5px;
+}
+
+#confirm-close-dialog {
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 15px;
+}
+
+.confirm-close-dialog-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.discard-message-text {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#tasks-container {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.task {
+  margin: 5px 5px 5px 5px;
+  padding: 5px;
+  color:var(--tree);
+}
+
+.hidden {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .todo-app,
+  .task-form {
+    width: 400px;
+    height: 450px;
+  }
+
+  .task-form-label {
+    font-size: 1.5rem;
+  }
+
+  #title-input,
+  #date-input {
+    height: 2rem;
+  }
+
+  #title-input,
+  #date-input,
+  #description-input {
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+}
