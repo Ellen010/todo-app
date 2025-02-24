@@ -1,6 +1,6 @@
 <h1>Todo App</h1>
 
-<h3>Includes:</h3>
+<p>Includes:</p>
 <h3>-Local storage </h3>
 <h3>-Form inputs</h3>
 <h3>-Form inputs</h3>
